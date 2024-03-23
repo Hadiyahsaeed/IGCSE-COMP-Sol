@@ -1,0 +1,11 @@
+The AND gate is one of the three basic gates in the boolean logic. It takes 2 inputs. You simply multiply both the values.
+The equations look some thing like this:
+X = A AND B (Logic notation)
+X = A . B   (Boolean Algebra)
+The dot represents the multiplication sign. The truth table will look as follows:
+A | B | X
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
+
