@@ -9,3 +9,64 @@ A | B | X
 1 | 0 | 0
 1 | 1 | 1
 
+The OR gate is also on of the basic gates. It take 2 inputs. If even of of the inputs is 1, the output is 1. So you are basically adding both the inputs.
+The equations look something like this:
+X = A OR B
+X = A + B
+The truth table looks as follows:
+A | B | X
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 1
+
+The NOT gate is thes implest of all gates. It takes one input. It works by inverting(reversing) the inputs.
+Equations:
+X = NOT A
+    _
+X = A
+The bar above A represents inversing. The truth table:
+A | B 
+0 | 1
+1 | 0
+
+The NAND (NOT and AND) gate is just a combo of the gates. You simply apply the AND gate on the inputs and then inverse it.
+Equations:
+X = A NAND B
+     _____
+X =  A . B
+The truth table is as follows:
+A | B | X
+0 | 0 | 1
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 0
+
+The NOR gate is the combo of the NOT and OR gate. Same as before, you apply the OR gate and then inverse the output.
+Equations:
+X = A NOR B
+     _____
+X =  A + B
+Thruth table:
+A | B | X
+0 | 0 | 1
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 0
+
+The XOR gate stands for Exclusive Or gate. The output is 1 if the inputs are *not* the same.
+Equations:
+X = A XOR B
+       _     _
+X = (A.B) + (A.B)
+        or
+           ___
+X = (A+B).(A.B)
+Truth table:
+A | B | X
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 0
+
+
