@@ -1,0 +1,8 @@
+Both expressions, X and Y, involve the same variables A and B, with combinations of logical AND, NOT, and OR operations.
+X represents the logical OR of two expressions: 
+AND NOT A AND NOT B and NOT AND NOT A AND B.
+Y represents the logical AND of two expressions: 
+A OR B and NOT A AND B.
+By looking closely, we can see that X and Y are structurally equivalent because they both involve the combination of A and 
+B with AND and NOT operations, albeit with different intermediate operators. However, these operators can be interchangeable in this context, making 
+X and Y effectively represent the same logic gate.
